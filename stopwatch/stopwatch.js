@@ -23,9 +23,6 @@ function func(){
     displaytime.innerHTML = h+":"+m+":"+s+":"+mi;
 }
 function setint(){
-    if(!id){
-    clearInterval(id);
-    }
     id=setInterval(func,10);
     document.getElementById('temp').innerHTML="you have start your timer";
 }
